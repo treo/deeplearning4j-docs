@@ -4,7 +4,7 @@
         {% include head.html %}
         <meta http-equiv="refresh" content="2;url={{page.redirectTo}}" />
         <script>
-        window.location = "{{page.redirectTo}}";
+        window.location.replace("{{page.redirectTo}}");
         </script>
     </head>
 
